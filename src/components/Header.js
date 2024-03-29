@@ -32,8 +32,8 @@ const styles = {
         alignItems: 'center',
     },
     logo: {
-        width: '300px',
-        height: '100px',
+        width: 'auto', // Adjusted width to be responsive
+        height: '50px', // Adjusted height to be responsive
         marginRight: '10px',
     },
     heading: {
