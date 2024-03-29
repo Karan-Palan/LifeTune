@@ -32,9 +32,10 @@ const styles = {
         alignItems: 'center',
     },
     logo: {
-        width: 'auto', // Adjusted width to be responsive
-        height: '50px', // Adjusted height to be responsive
+        width: 'auto',
+        height: '50px',
         marginRight: '10px',
+        maxWidth: '30%', // Adjusted width to be responsive
     },
     heading: {
         margin: '0',
@@ -54,8 +55,8 @@ const styles = {
         transition: 'color 0.3s ease',
     },
     linkHover: {
-        color: '#FFD700', // Change the color for hover effect
-    }
+        color: '#FFD700',
+    },
 };
 
 export default Header;

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import { calculateHealthAge, BMICalculation, aerobicExerciseCalculation, strengthTrainingCalculation, redFoodCalculation, sleepCalculator, cholesterolCalculation, bloodPressureCalculation, smokingCalculation, bloodGlucoseCalculation, socialConnectionCalculation, stressCalculation } from './healthAgeCalculatorExport';
+import ChatBox from './ChatBox';
 
 const HealthAgeCalculator = () => {
     const [age, setAge] = useState('');
@@ -176,6 +177,7 @@ const HealthAgeCalculator = () => {
                 </div>
                 <button style={{ backgroundColor: 'blue', color: 'white', padding: '10px 20px', borderRadius: '5px', border: 'none', cursor: 'pointer', marginTop: '20px', width: '100%' }} onClick={handleCalculate}>Calculate Health Age</button>
                 {healthAge !== null && <p style={{ marginTop: '20px', color: 'white' }}>Your Health Age: {healthAge}</p>}
+                <ChatBox/>
             </div>
         </div>
     );
