@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from './Header';
 import { calculateHealthAge, BMICalculation, aerobicExerciseCalculation, strengthTrainingCalculation, redFoodCalculation, sleepCalculator, cholesterolCalculation, bloodPressureCalculation, smokingCalculation, bloodGlucoseCalculation, socialConnectionCalculation, stressCalculation } from './healthAgeCalculatorExport';
 
 const HealthAgeCalculator = () => {
@@ -39,9 +40,9 @@ const HealthAgeCalculator = () => {
     };
 
     return (
-        <div style={{ fontFamily: 'Arial, sans-serif', color: '#333', backgroundColor: '#f5f5f5', padding: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-            <h2 style={{ marginBottom: '20px', color: 'blue' }}>LifeTune</h2>
-            <div style={{ border: '3px solid #ccc', padding: '20px', borderRadius: '10px', marginBottom: '20px' }}>
+        <div style={{ fontFamily: 'Arial, sans-serif', color: '#333',background: 'linear-gradient(to bottom, #000000, #111111)', backgroundColor: '#111111', padding: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+            <Header/>
+            <div style={{ border: '3px solid #ccc', padding: '20px', borderRadius: '10px', marginBottom: '40px', marginTop: '15px' }}>
             <div style={{ marginBottom: '15px' }}>
                 <label htmlFor="age" style={{ marginRight: '10px' }}>Age:</label>
                 <input
