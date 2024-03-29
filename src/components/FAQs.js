@@ -2,7 +2,7 @@ import React from 'react';
 
 const FAQs = () => {
     return (
-        <div style={{ fontFamily: 'Arial, sans-serif', color: '#333', background: 'linear-gradient(to bottom, #000000, #000000)', backgroundColor: '#111111', padding: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', textAlign: 'center' }}>
+        <div style={{ fontFamily: 'Arial, sans-serif', color: '#333', background: 'linear-gradient(to bottom, #000000, #000000)', backgroundColor: '#111111', padding: '20px', borderRadius: '0px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', textAlign: 'center' }}>
             <h2 style={{ color: 'white' }}>Frequently Asked Questions</h2>
             <div style={{ border: '1px solid #ccc', padding: '20px', borderRadius: '10px', marginBottom: '40px', marginTop: '15px', textAlign: 'left' }}>
                 <div style={{ marginBottom: '20px' }}>
